@@ -1,1 +1,1 @@
-# mediaportfolio-website
+A visually captivating and fully responsive photography portfolio website designed and developed using HTML, CSS, Bootstrap, JavaScript, and jQuery plugins. This project is aimed at showcasing the stunning visuals and photography work of clients while maintaining a seamless user experience and modern design aesthetics. (Note: Dummy text & photos) # mediaportfolio-website
