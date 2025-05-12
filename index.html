@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Portfolio Website</title>
+
+    <!--bootstrap cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!--fontawesome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--owl carousel css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--google font cdn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--css-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--header section start-->
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="index.html">Media</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#review">Review</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div
+        class="home__container header__container"
+        data-aos="zoom-out"
+        data-aos-delay="100"
+      >
+        <h1>
+          Photographer <br />
+          & Film Maker
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit voluptatem
+          commodi!
+        </p>
+        <button class="btn">Hire Me</button>
+      </div>
+    </header>
+    <!--header section end-->
+
+    <!--about section start-->
+    <section class="about" id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4 align-items-center justify-content-between">
+          <div class="col">
+            <div class="about-detail">
+              <h2 class="section-header">About Me</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus dolorum amet vitae enim ipsam magni qui voluptatibus
+                sunt suscipit! Ullam esse, accusamus accusantium laudantium
+                dolores, consectetur eum amet impedit culpa dolor ut atque
+                consequatur tempore perspiciatis voluptatum odio deserunt
+                blanditiis illum commodi? Vel atque voluptatum omnis natus
+                eligendi autem incidunt accusamus nostrum cum ratione est neque,
+                ducimus porro dolor dolorum quas sapiente!
+              </p>
+            </div>
+
+            <div class="about-social" data-aos="fade-up" data-aos-delay="100">
+              <h4>Social Links:</h4>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--about section end-->
+
+    <!--register section start-->
+    <section class="register">
+      <div class="container" data-aos="fade-up">
+        <div class="register-detail">
+          <div class="register-content" data-aos="fade-up" data-aos-delay="100">
+            <h4>Register to start selling your services</h4>
+            <div class="register-btn">
+              <button class="btn">Get Started Now</button>
+            </div>
+          </div>
+
+          <div class="register-img">
+            <img src="images/register.png" alt="register" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--register section end-->
+
+    <!--services section start-->
+    <section class="services" id="services">
+      <div class="container-fluid" data-aos="fade-up">
+        <h2 class="section-header">All Talent In One Place</h2>
+
+        <div class="row gy-4 mt-4 justify-content-center">
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="service-card">
+              <span><i class="fa-solid fa-passport"></i></span>
+              <h4>Portrait Photography</h4>
+              <p>
+                Mastery in capturing the essence and personality of individuals
+                or groups.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="service-card">
+              <span><i class="fa-solid fa-mountain-sun"></i></span>
+              <h4>Landscape Photography</h4>
+              <p>
+                Expertise in capturing scenic vistas, natural beauty, and
+                environments.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="service-card">
+              <span><i class="fa-solid fa-tree"></i></span>
+              <h4>Wildlife Photography</h4>
+              <p>
+                Skill in capturing animals and their habitats in their natural
+                settings.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="service-card">
+              <span><i class="fa-solid fa-magnifying-glass-plus"></i></span>
+              <h4>Macro Photography</h4>
+              <p>
+                Specialization in capturing extreme close-up images, often of
+                small subjects.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div class="service-card">
+              <span><i class="fa-solid fa-calendar-day"></i></span>
+              <h4>Event Photography</h4>
+              <p>
+                Proficiency in documenting events such as weddings, parties, and
+                corporate gatherings.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="600"
+          >
+            <div class="service-card">
+              <span><i class="fa-solid fa-shirt"></i></span>
+              <h4>Fashion Photography</h4>
+              <p>
+                Talent in capturing clothing, accessories, and models for
+                advertising or editorial purposes.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="700"
+          >
+            <div class="service-card">
+              <span><i class="fa-solid fa-bag-shopping"></i></span>
+              <h4>Product Photography</h4>
+              <p>
+                Skill in photographing products for marketing, e-commerce, or
+                advertising purposes.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-4 col-sm-6"
+            data-aos="fade-up"
+            data-aos-delay="800"
+          >
+            <div class="service-card">
+              <span><i class="fa-solid fa-martini-glass"></i></span>
+              <h4>Food Photography</h4>
+              <p>
+                Talent in capturing food and beverages in an appetizing and
+                visually appealing manner.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--services section end-->
+
+    <!--portfolio section start-->
+    <section class="portfolio" id="portfolio">
+      <div class="container" data-aos="fade-up">
+        <h2 class="section-header">Portfolio</h2>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="100">
+          <div class="photo">
+            <img src="images/portfolio-1.png" alt="" />
+            <img src="images/portfolio-2.png" alt="" />
+            <img src="images/portfolio-3.png" alt="" />
+          </div>
+          <div class="photo">
+            <img src="images/portfolio-4.png" alt="" />
+            <img src="images/portfolio-5.png" alt="" />
+          </div>
+          <div class="photo">
+            <img src="images/portfolio-6.png" alt="" />
+            <img src="images/portfolio-7.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--portfolio section end-->
+
+    <!--review section start-->
+    <section class="review" id="review">
+      <div class="container" data-aos="fade-up">
+        <h2 class="section-header">What Other Says</h2>
+      </div>
+
+      <div
+        class="owl-carousel owl-theme review-sliders"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <div class="review-detail">
+          <p>
+            CapturedMoments truly lives up to their name! Their expertise in
+            portrait photography is unmatched. As a business owner, having
+            professional headshots taken was a breeze, and the results exceeded
+            my expectations.
+          </p>
+
+          <div class="client-detail">
+            <div>
+              <h4>BusinessPro</h4>
+              <h5>Small Business Owner</h5>
+            </div>
+            <span><i class="fa-solid fa-quote-right"></i></span>
+          </div>
+        </div>
+
+        <div class="review-detail">
+          <p>
+            WanderlustLens made our outdoor adventure shoot an unforgettable
+            experience. Their creativity and passion for photography truly shone
+            through in every shot. I couldn't be happier with the memories they
+            captured.
+          </p>
+
+          <div class="client-detail">
+            <div>
+              <h4>AdventureSeeker</h4>
+              <h5>Outdoor Enthusiast</h5>
+            </div>
+            <span><i class="fa-solid fa-quote-right"></i></span>
+          </div>
+        </div>
+
+        <div class="review-detail">
+          <p>
+            UrbanFrames captured the essence of the city like no other. Their
+            cityscape photography tour was not only informative but also
+            incredibly inspiring. I'm grateful for the stunning images I now
+            have to remember my trip by.
+          </p>
+
+          <div class="client-detail">
+            <div>
+              <h4>CityExplorer</h4>
+              <h5>Travel Blogger</h5>
+            </div>
+            <span><i class="fa-solid fa-quote-right"></i></span>
+          </div>
+        </div>
+
+        <div class="review-detail">
+          <p>
+            WeddingWhispers turned our special day into timeless memories. Their
+            attention to detail and ability to capture the emotions of the
+            moment were truly remarkable. I'm grateful for the stunning
+            photographs we'll cherish for a lifetime.
+          </p>
+
+          <div class="client-detail">
+            <div>
+              <h4>HappilyEverAfter</h4>
+              <h5>Newlywed</h5>
+            </div>
+            <span><i class="fa-solid fa-quote-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--review section end-->
+
+    <!--contact section start-->
+    <section class="contact" id="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4 align-items-center justify-content-between">
+          <div class="col-lg-7">
+            <form action="#">
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                placeholder="Your Name"
+                required
+              />
+
+              <input
+                type="email"
+                name="email"
+                class="form-control mt-3"
+                placeholder="Your Email"
+                required
+              />
+
+              <input
+                type="text"
+                name="subject"
+                class="form-control mt-3"
+                placeholder="Your Subject"
+                required
+              />
+
+              <div class="mb-5 mt-3">
+                <textarea
+                  class="form-control"
+                  name="message"
+                  rows="5"
+                  id="comment"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+
+              <a href="#" class="contact-btn">Send Message</a>
+            </form>
+          </div>
+
+          <div class="col-lg-4">
+            <div
+              class="row mt-5 mt-lg-0"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="col-md-12">
+                <div class="info-item d-flex">
+                  <span><i class="fa-solid fa-location-dot"></i></span>
+                  <div class="detail">
+                    <h3>Address:</h3>
+                    <p>ABC Road, XYZ City.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="info-item d-flex">
+                  <span><i class="fa-solid fa-phone"></i></span>
+                  <div class="detail">
+                    <h3>Phone:</h3>
+                    <p>+1 234 567 890</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="info-item d-flex">
+                  <span><i class="fa-solid fa-envelope"></i></span>
+                  <div class="detail">
+                    <h3>Email:</h3>
+                    <p>example@email.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--contact section end-->
+
+    <!--footer section start-->
+    <section class="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6">
+            <h4>About</h4>
+            <ul class="footer-links">
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Press & News</a></li>
+              <li><a href="#">Partnership</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h4>Support</h4>
+            <ul class="footer-links">
+              <li><a href="#">Help & Support</a></li>
+              <li><a href="#">Trust & Safety</a></li>
+              <li><a href="#">Selling To Us</a></li>
+              <li><a href="#">Buying From Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h4>Community</h4>
+            <ul class="footer-links">
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Forms</a></li>
+              <li><a href="#">Podcast</a></li>
+              <li><a href="#">Affiliates</a></li>
+              <li><a href="#">Invite a Friend</a></li>
+              <li><a href="#">Become a Seller</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h4>Category</h4>
+            <ul class="footer-links">
+              <li><a href="#">Website Design</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Video & Animation</a></li>
+              <li><a href="#">UI/UX Design</a></li>
+              <li><a href="#">Music & Audio</a></li>
+              <li><a href="#">Programme & Tech</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bar">Copyright © 2025 All Rights Reserved.</div>
+      </div>
+    </section>
+    <!--footer section end-->
+
+    <!--scroll to top section start-->
+    <button class="scroll-to-top">
+      <i class="fa-solid fa-angle-up"></i>
+    </button>
+    <!--scroll to top section end-->
+
+    <!--jquery-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--bootstrap js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--owl carousel js-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!--aos-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--js-->
+    <script src="script.js"></script>
+  </body>
+</html>
