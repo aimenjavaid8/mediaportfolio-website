@@ -1,1 +1,1 @@
-# mediaportfolio-website
+This is a responsive and modern photography portfolio website designed to showcase photography work in an elegant and user-friendly format. Built using HTML, CSS, JavaScript, and Bootstrap, the site features interactive galleries, smooth animations, and a clean layout that puts the focus on the photos. # mediaportfolio-website
